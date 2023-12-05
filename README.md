@@ -1,0 +1,1 @@
+1. DAO层的表的实体类，必须继承Base,ModelExt
