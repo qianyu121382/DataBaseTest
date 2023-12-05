@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, String, Integer
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-from Test.Util import ModelExt
+from DAO.Util import ModelExt
 
 engine = create_engine('mysql+pymysql://root:123456@101.201.51.225/homework')
 Base = declarative_base()
